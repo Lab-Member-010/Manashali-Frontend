@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <div
       className="min-h-screen flex justify-end items-center bg-cover bg-center bg-fixed pr-12"
-      style={{ backgroundImage: "url('../../images/spore.gif')" }}
+      style={{ backgroundImage: "url('../../assets/LandingPage/spore.gif')" }}
     >
       {/* Main Container */}
       <div className="bg-white/30 p-12 rounded-2xl shadow-md backdrop-blur-md max-w-4xl w-full text-center mx-auto">
