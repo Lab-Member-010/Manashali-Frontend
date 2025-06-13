@@ -13,7 +13,7 @@ import Auth from "./components/Authorization/Auth";
 import Personality from "./components/Quiz/personality";
 import Profile from "./components/Feed/profile/ProfileSetting";
 import Notification from "./components/Feed/notification/Notification";
-import Admin from "./components/Admin/Admin";
+import Admin from "./components/Admin/Admin.jsx";
 import AdminLogin from "./components/Admin/AdminLogin";
 
 function App() {
@@ -22,12 +22,12 @@ function App() {
       <Routes>
         {/* Home Page */}
         <Route path="/" element={<Home />} />
-        
+
         {/* Admin Page */}
-        <Route path="/admin" element={<Admin/>}/>
-        
+        <Route path="/admin" element={<Admin />} />
+
         {/* Community Admin */}
-        <Route path="/admin-login" element={<AdminLogin/>}/>
+        <Route path="/admin-login" element={<AdminLogin />} />
 
         {/* Signup Page */}
         <Route path="/signup" element={<SignUp />} />
@@ -57,11 +57,11 @@ function App() {
         <Route path="/profile" element={<Profile />} />
 
         {/* Notification */}
-        <Route path="/notifications" element={< Notification/>}/>
+        <Route path="/notifications" element={< Notification />} />
 
         {/* Personality Page */}
-        <Route path="/personality" element={<Auth><Personality/></Auth>}/>
-    
+        <Route path="/personality" element={<Auth><Personality /></Auth>} />
+
       </Routes>
 
     </>
